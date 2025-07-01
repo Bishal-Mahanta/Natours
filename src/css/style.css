@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*:focus {
+  outline: none;
+
+  /* FIXME */
+  box-shadow: inset 0 0 0 0.8rem #000;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.7;
+  font-weight: 400;
+  color: #777;
+}
