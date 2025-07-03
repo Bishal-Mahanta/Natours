@@ -103,6 +103,22 @@ body {
   line-height: 1.6;
 }
 
+.features__container--card .heading-tertiary {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+.features__container--card .features__container--desc {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.features__container--card .la-globe {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
+  background-clip: text;
+  color: transparent;
+  font-size: 9.6rem;
+  margin-bottom: 1.8rem;
+}
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -211,7 +227,7 @@ body {
 }
 
 .section__about {
-  padding: 25rem 0 10rem 0;
+  padding: 25rem 0 25rem 0;
   margin-top: -20vh;
   background-color: #f7f7f7;
   display: flex;
@@ -248,6 +264,7 @@ body {
   z-index: 100;
   outline: 1.5rem solid #55c57a;
   border-radius: 12px;
+  outline-offset: 2rem;
 }
 .section__about--img-container .image--2 {
   position: absolute;
@@ -261,10 +278,11 @@ body {
   z-index: 100;
   outline: 1.5rem solid #55c57a;
   border-radius: 12px;
+  outline-offset: 2rem;
 }
 .section__about--img-container .image--3 {
   position: absolute;
-  top: 0;
+  top: -5rem;
   left: 10rem;
   transition: all 0.4s;
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
@@ -274,6 +292,39 @@ body {
   z-index: 100;
   outline: 1.5rem solid #55c57a;
   border-radius: 12px;
+  outline-offset: 2rem;
+}
+
+.section__features {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 25rem 0;
+  transform: skewY(-7deg);
+  margin-top: -12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 6.4rem;
+  transform: skewY(7deg);
+  max-width: 120rem;
+  text-align: center;
+  color: #777;
+}
+.features__container--card {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  padding: 2.5rem;
+  transition: all 0.4s;
+}
+.features__container--card:hover {
+  transform: translateY(-6px);
 }
 
 /*# sourceMappingURL=style.css.map */

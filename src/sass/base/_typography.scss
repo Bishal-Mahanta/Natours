@@ -56,3 +56,29 @@ body {
   font-size: 1.8rem;
   line-height: 1.6;
 }
+
+.features__container--card {
+  .heading-tertiary {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .features__container--desc {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  .la-globe {
+    //
+    background-image: linear-gradient(
+      to right bottom,
+      rgba($primary-color-light, 0.8),
+      rgba($primary-color-dark, 0.8)
+    );
+    background-clip: text;
+    color: transparent;
+
+    font-size: 9.6rem;
+    margin-bottom: 1.8rem;
+  }
+}
