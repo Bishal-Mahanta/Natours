@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "sass src/sass/main.scss src/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bishal-Mahanta/Natours.git"
+  },
+  "author": "Bishal Mahanta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bishal-Mahanta/Natours/issues"
+  },
+  "homepage": "https://github.com/Bishal-Mahanta/Natours#readme",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

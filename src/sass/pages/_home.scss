@@ -1,0 +1,78 @@
+.section__about {
+  padding: 25rem 0 10rem 0;
+  margin-top: -20vh;
+  background-color: $color-gray-1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div {
+    max-width: 130rem;
+  }
+
+  &--desc {
+    padding: 12rem 0;
+
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  &--text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    width: 50%;
+  }
+
+  &--img-container {
+    position: relative;
+
+    .image--1 {
+      position: absolute;
+      top: -18rem;
+      left: 0;
+      transition: all 0.4s;
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+
+      &:hover {
+        scale: 1.2;
+        z-index: 100;
+        outline: 1.5rem solid $primary-color;
+        border-radius: 12px;
+      }
+    }
+
+    .image--2 {
+      position: absolute;
+      top: -12rem;
+      left: 24rem;
+      transition: all 0.4s;
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+
+      &:hover {
+        scale: 1.2;
+        z-index: 100;
+        outline: 1.5rem solid $primary-color;
+        border-radius: 12px;
+      }
+    }
+
+    .image--3 {
+      position: absolute;
+      top: 0;
+      left: 10rem;
+      transition: all 0.4s;
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+
+      &:hover {
+        scale: 1.2;
+        z-index: 100;
+        outline: 1.5rem solid $primary-color;
+        border-radius: 12px;
+      }
+    }
+  }
+}
